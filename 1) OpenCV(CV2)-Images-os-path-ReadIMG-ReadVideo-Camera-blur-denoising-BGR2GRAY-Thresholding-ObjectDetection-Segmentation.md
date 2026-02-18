@@ -197,6 +197,10 @@ th = cv2.adaptiveThreshold(
 )
 ```
 
+- These are different between ORiginal image , Adaptive Threshold , simple threshold:
+- <img width="1129" height="423" alt="image" src="https://github.com/user-attachments/assets/ac9a27f5-db4f-4437-b21d-22df14680121" />
+
+
 
 
 
