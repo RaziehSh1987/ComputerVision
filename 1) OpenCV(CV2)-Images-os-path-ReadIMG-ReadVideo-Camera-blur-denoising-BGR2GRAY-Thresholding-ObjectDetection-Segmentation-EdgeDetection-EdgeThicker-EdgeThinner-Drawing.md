@@ -1,4 +1,4 @@
-# Day 2) OpenCV(CV2)-Images-os-path-ReadIMG-ReadVideo-Camera-blur-denoising-BGR2GRAY-Thresholding-ObjectDetection-Segmentation
+# Day 2) OpenCV(CV2)-Images-os-path-ReadIMG-ReadVideo-Camera-blur-denoising-BGR2GRAY-Thresholding-ObjectDetection-Segmentation-EdgeDetection-EdgeThicker-EdgeThinner-Drawing
 
 - https://youtu.be/eDIj5LuIL4A?si=qztFKz0kD9dV_gD1
 <img width="715" height="584" alt="image" src="https://github.com/user-attachments/assets/2cfd97fb-a43b-4573-958a-6166e639200c" />
@@ -199,6 +199,81 @@ th = cv2.adaptiveThreshold(
 
 - These are different between ORiginal image , Adaptive Threshold , simple threshold:
 - <img width="1129" height="423" alt="image" src="https://github.com/user-attachments/assets/ac9a27f5-db4f-4437-b21d-22df14680121" />
+
+# Edge Detection:
+- OpenCV provides multiple methods for detecting edges in images.  
+The three most common approaches are:
+1-  Sobel Operator  
+2-  Canny Edge Detector  
+3-  Laplacian Operator
+
+## 1️⃣ Canny Edge Detector
+- The **Canny edge detector** is a multi-stage algorithm and is considered the most accurate edge detection method in OpenCV.
+- <img width="753" height="562" alt="image" src="https://github.com/user-attachments/assets/13f2ff8b-27ab-459b-b6d7-4ba73e789986" />
+### Advantages:
+✔ Very accurate  
+✔ Detects thin and clean edges  
+✔ Less sensitive to noise  
+
+### Limitations:
+✖ Slightly slower  
+✖ Requires threshold tuning  
+
+- Ex: we have to check different min and max threshold to find the best number fo the best Edge Detection
+- <img width="748" height="373" alt="image" src="https://github.com/user-attachments/assets/195eaa74-96fe-412f-b26b-90b474ed919a" />
+##  cv2.dilate(img, np.ones(n,n) , dtype=np.int 8)  : 
+- Make edges thicker.
+- <img width="741" height="409" alt="image" src="https://github.com/user-attachments/assets/885ac704-a513-4717-b6bf-9120407305a1" />
+##   cv2.erode (img, np.ones(n,n) , dtype=np.int 8)  : 
+- Make edges thinner.
+- <img width="745" height="468" alt="image" src="https://github.com/user-attachments/assets/7b1438bb-b24b-4ea6-8147-d36cf19dbdaa" />
+## 2️⃣  Sobel Operator
+
+The **Sobel operator** detects edges by calculating the first derivative of the image intensity.
+
+It computes gradients in:
+- X direction (horizontal edges)
+- Y direction (vertical edges)
+
+### Advantages:
+✔ Simple and fast  
+✔ Good for directional edge detection  
+
+### Limitations:
+✖ Sensitive to noise  
+✖ May miss fine edges  
+
+## 3️⃣ Laplacian Operator
+
+The **Laplacian operator** detects edges using the second derivative of the image.
+
+Unlike Sobel, it detects edges in all directions at once.
+### Advantages:
+✔ Detects edges in all directions  
+✔ Simple implementation  
+
+### Limitations:
+✖ Very sensitive to noise  
+✖ Often requires Gaussian blur before use  
+
+
+# Drawing:
+## Line
+
+
+## rectangle
+## circle
+## text
+
+
+
+
+
+
+
+
+
+
 
 
 
