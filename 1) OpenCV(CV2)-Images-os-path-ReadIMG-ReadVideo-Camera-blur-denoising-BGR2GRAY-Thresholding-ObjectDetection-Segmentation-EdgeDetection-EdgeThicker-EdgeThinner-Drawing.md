@@ -305,6 +305,7 @@ Unlike Sobel, it detects edges in all directions at once.
 - 3 – Thickness of the text strokes in pixels.
 
 - <img width="1188" height="234" alt="image" src="https://github.com/user-attachments/assets/efa2ae3b-364f-4320-bd86-1eeedcb5b2de" />
+# countours:
 
 
 
