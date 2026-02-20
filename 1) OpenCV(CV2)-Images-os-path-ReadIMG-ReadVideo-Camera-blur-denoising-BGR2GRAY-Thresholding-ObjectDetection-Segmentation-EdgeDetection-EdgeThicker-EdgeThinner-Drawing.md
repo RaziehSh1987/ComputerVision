@@ -258,7 +258,17 @@ Unlike Sobel, it detects edges in all directions at once.
 
 
 # Drawing:
-## Line
+## Line -cv2.line()
+- cv2.line(img, (75,150), (100,80), (1,230,45), 3)
+- This command draws a line from point (75,150) to (100,80) on the image img with a thickness of 3 pixels and a custom BGR color.
+- Explanation of Parameters:
+- img – The image on which the line will be drawn.
+- (75,150) – Starting point of the line (x, y).
+- (100,80) – Ending point of the line (x, y).
+- (1,230,45) – Line color in BGR format (Blue, Green, Red).
+- 3 – Thickness of the line in pixels.
+
+- <img width="761" height="345" alt="image" src="https://github.com/user-attachments/assets/740b0f60-12ce-47e0-a852-d40392576b4f" />
 
 
 ## rectangle
