@@ -270,8 +270,20 @@ Unlike Sobel, it detects edges in all directions at once.
 
 - <img width="761" height="345" alt="image" src="https://github.com/user-attachments/assets/740b0f60-12ce-47e0-a852-d40392576b4f" />
 
-
 ## rectangle
+- cv2.rectangle(img, (100,20), (200,200), (0,0,255), 2)
+- This command draws a red rectangle with a thickness of 2 pixels on the image img, from coordinates (100,20) to (200,200).
+- Explanation of Parameters:
+- img – The image on which the rectangle will be drawn.
+- (100,20) – Top-left corner of the rectangle (x, y).
+- (200,200) – Bottom-right corner of the rectangle (x, y).
+- (0,0,255) – Rectangle color in BGR format (Blue, Green, Red).
+- (0,0,255) = Red
+- 2 – Thickness of the rectangle border in pixels.
+- Use -1 to fill the rectangle.
+
+- <img width="515" height="410" alt="image" src="https://github.com/user-attachments/assets/7859a454-3a5c-46d3-8621-9c041897b2a5" />
+
 ## circle
 ## text
 
