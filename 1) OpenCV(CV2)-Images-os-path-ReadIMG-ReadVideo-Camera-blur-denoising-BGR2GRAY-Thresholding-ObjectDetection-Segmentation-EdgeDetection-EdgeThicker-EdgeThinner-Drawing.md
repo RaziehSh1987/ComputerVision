@@ -280,12 +280,32 @@ Unlike Sobel, it detects edges in all directions at once.
 - (0,0,255) – Rectangle color in BGR format (Blue, Green, Red).
 - (0,0,255) = Red
 - 2 – Thickness of the rectangle border in pixels.
-- Use -1 to fill the rectangle.
-
 - <img width="515" height="410" alt="image" src="https://github.com/user-attachments/assets/7859a454-3a5c-46d3-8621-9c041897b2a5" />
+-Note:   Use -1 to fill the rectangle.
+
+- <img width="519" height="231" alt="image" src="https://github.com/user-attachments/assets/95c70384-abe9-4ab1-8afc-edf741b380fd" />
+
 
 ## circle
+- cv2.circle(img, (100,100), 50, (255,0,0), 2)
+- <img width="706" height="326" alt="image" src="https://github.com/user-attachments/assets/9af12a21-35cf-4f46-b00c-0b1a5ea71f21" />
+
 ## text
+- cv2.putText(img, "Hi, I am Razieh", (20,100), 
+            cv2.FONT_HERSHEY_PLAIN, 4, 
+            (10,20,255), 3)
+- This command writes the text "Hi, I am Razieh" on the image img at position (20,100) using the Hershey Plain font, with a large size, custom BGR color, and thickness of 3 pixels.
+- Explanation of Parameters:
+- img – The image where the text will be drawn.
+- "Hi, I am Razieh" – The text string to display.
+- (20,100) – Bottom-left corner of the text (x, y).
+- cv2.FONT_HERSHEY_PLAIN – Font type used for the text.
+- 4 – Font scale (size of the text).
+- (10,20,255) – Text color in BGR format (Blue, Green, Red).
+- 3 – Thickness of the text strokes in pixels.
+
+- <img width="1188" height="234" alt="image" src="https://github.com/user-attachments/assets/efa2ae3b-364f-4320-bd86-1eeedcb5b2de" />
+
 
 
 
