@@ -1,13 +1,18 @@
 # Day 2) OpenCV(CV2)-Images-os-path-ReadIMG-ReadVideo-Camera-blur-denoising-BGR2GRAY-Thresholding-ObjectDetection-Segmentation-EdgeDetection-EdgeThicker-EdgeThinner-Drawing
-
 - https://youtu.be/eDIj5LuIL4A?si=qztFKz0kD9dV_gD1
-<img width="715" height="584" alt="image" src="https://github.com/user-attachments/assets/2cfd97fb-a43b-4573-958a-6166e639200c" />
+<img width="425" height="183" alt="image" src="https://github.com/user-attachments/assets/9fdd2dab-d223-40a1-aa94-dc7d47549a21" />
+
 <img width="431" height="315" alt="image" src="https://github.com/user-attachments/assets/969fe43e-8a76-4edf-8f87-50df31c44f96" />
 
+<img width="586" height="380" alt="image" src="https://github.com/user-attachments/assets/2f56d8df-16cb-4100-ab8e-61397fbf08c7" />
 
-<img width="684" height="422" alt="image" src="https://github.com/user-attachments/assets/00ff36e3-0b64-4d1e-9f42-3783ae6948eb" />
 <img width="672" height="259" alt="image" src="https://github.com/user-attachments/assets/fe403b5c-e268-4b6a-ae71-8aa406283439" />
-<img width="631" height="663" alt="image" src="https://github.com/user-attachments/assets/fb246384-87eb-4a7a-9577-9730d95b1107" />
+# What are images?
+<img width="448" height="255" alt="image" src="https://github.com/user-attachments/assets/0dea6e0e-3b11-4dea-ad9c-2b267ebc89c0" />
+<img width="467" height="282" alt="image" src="https://github.com/user-attachments/assets/8f39fe73-73a8-4e46-8673-9ef7368d90d6" />
+
+
+
  
 # Access to Path with os:
 - import OS:
