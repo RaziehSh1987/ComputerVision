@@ -7,9 +7,10 @@
 <img width="586" height="380" alt="image" src="https://github.com/user-attachments/assets/2f56d8df-16cb-4100-ab8e-61397fbf08c7" />
 
 <img width="672" height="259" alt="image" src="https://github.com/user-attachments/assets/fe403b5c-e268-4b6a-ae71-8aa406283439" />
+
 # What are images?
-<img width="448" height="255" alt="image" src="https://github.com/user-attachments/assets/0dea6e0e-3b11-4dea-ad9c-2b267ebc89c0" />
-<img width="467" height="282" alt="image" src="https://github.com/user-attachments/assets/8f39fe73-73a8-4e46-8673-9ef7368d90d6" />
+- <img width="448" height="255" alt="image" src="https://github.com/user-attachments/assets/0dea6e0e-3b11-4dea-ad9c-2b267ebc89c0" />
+- <img width="467" height="282" alt="image" src="https://github.com/user-attachments/assets/8f39fe73-73a8-4e46-8673-9ef7368d90d6" />
 
 
 
