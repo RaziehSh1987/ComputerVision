@@ -2,7 +2,8 @@
 
 - https://youtu.be/eDIj5LuIL4A?si=qztFKz0kD9dV_gD1
 <img width="715" height="584" alt="image" src="https://github.com/user-attachments/assets/2cfd97fb-a43b-4573-958a-6166e639200c" />
-<img width="452" height="296" alt="image" src="https://github.com/user-attachments/assets/be2bbd9b-3b7a-4e61-8e2a-5f8b8c1445ca" />
+<img width="431" height="315" alt="image" src="https://github.com/user-attachments/assets/969fe43e-8a76-4edf-8f87-50df31c44f96" />
+
 
 <img width="684" height="422" alt="image" src="https://github.com/user-attachments/assets/00ff36e3-0b64-4d1e-9f42-3783ae6948eb" />
 <img width="672" height="259" alt="image" src="https://github.com/user-attachments/assets/fe403b5c-e268-4b6a-ae71-8aa406283439" />
