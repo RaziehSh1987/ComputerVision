@@ -25,6 +25,14 @@ annoation for training ==> <img width="483" height="218" alt="image" src="https:
     - <img width="651" height="212" alt="image" src="https://github.com/user-attachments/assets/fbcb5580-65ff-4490-bfdf-fb358d3fc9f8" />
     - ./data is folders that contains annotations and images
     - It’s better that we define  all of the arguments here like iterations,batch-size,..
+- What is ‘--model’ ? in this link there are different model of Detectron2 model Zoo that are for different task like Object Detection, Person keypoints,Segmentation, ..
+https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
+- <img width="906" height="336" alt="image" src="https://github.com/user-attachments/assets/9dfad3ca-04d1-4b65-aa0f-c967e23c5558" />
+
+
+
+
+
 
 
 
