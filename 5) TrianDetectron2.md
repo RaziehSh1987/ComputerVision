@@ -53,13 +53,17 @@ https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
 - In util.py we need train function:
 - <img width="1139" height="59" alt="image" src="https://github.com/user-attachments/assets/0631ff11-737a-4fcc-881a-158815aefc39" />
 - <img width="1118" height="394" alt="image" src="https://github.com/user-attachments/assets/fd92103a-e1b2-472f-8823-dd84a82f5da0" />
+- <img width="1300" height="657" alt="image" src="https://github.com/user-attachments/assets/5d151793-5330-4365-8e1c-a10b8d5a102f" />
 - 0000000000000000000000000000000
 - What is get_cfg function?
 - We want to change the pretrained model configuration based on out desire configuration. So first we call _get_cfg() ⇒ then we modify our parameters with cfg.merge_from_file
 - <img width="664" height="363" alt="image" src="https://github.com/user-attachments/assets/d58ebd5e-d6cd-4cb1-bf82-9bda1e91e960" />
 - <img width="1228" height="540" alt="image" src="https://github.com/user-attachments/assets/cf9b7f69-01eb-4c9e-8f2b-60d1e3f90965" />
-<img width="969" height="605" alt="image" src="https://github.com/user-attachments/assets/50dacb4b-0e20-4192-a489-310b850859ab" />
-<img width="1084" height="592" alt="image" src="https://github.com/user-attachments/assets/08a76ae9-d311-40cf-aa46-bf534a721d50" />
+- <img width="969" height="605" alt="image" src="https://github.com/user-attachments/assets/50dacb4b-0e20-4192-a489-310b850859ab" />
+- <img width="1084" height="592" alt="image" src="https://github.com/user-attachments/assets/08a76ae9-d311-40cf-aa46-bf534a721d50" />
+- We need to create Validation loss function, because we have not that:
+- <img width="787" height="471" alt="image" src="https://github.com/user-attachments/assets/d862a9bc-d1c8-4dee-8113-90c914db2715" />
+
 
 
 
