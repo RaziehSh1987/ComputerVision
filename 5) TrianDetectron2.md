@@ -20,7 +20,15 @@ annoation for training ==> <img width="483" height="218" alt="image" src="https:
 -This is what exactly we want to access them - the structure of name must be the same in train and val folders:
 - <img width="535" height="686" alt="image" src="https://github.com/user-attachments/assets/5d2f6ba0-4abb-4e7b-8f90-81258a92889f" />
 - Now we define ArgumentParser():
-    -  <img width="791" height="260" alt="image" src="https://github.com/user-attachments/assets/f57e86a7-1396-4f5f-90a0-a126484ac0d9" />
+    - <img width="1096" height="383" alt="image" src="https://github.com/user-attachments/assets/994036ca-5289-4812-a91d-f49d7e29a9b2" />
+    - Class.names is a text file that contains our class name , here is:
+    - <img width="651" height="212" alt="image" src="https://github.com/user-attachments/assets/fbcb5580-65ff-4490-bfdf-fb358d3fc9f8" />
+    - ./data is folders that contains annotations and images
+    - It’s better that we define  all of the arguments here like iterations,batch-size,..
+
+
+
+
 
 
 
