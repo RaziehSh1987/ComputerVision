@@ -25,9 +25,48 @@ annoation for training ==> <img width="483" height="218" alt="image" src="https:
     - <img width="651" height="212" alt="image" src="https://github.com/user-attachments/assets/fbcb5580-65ff-4490-bfdf-fb358d3fc9f8" />
     - ./data is folders that contains annotations and images
     - It’s better that we define  all of the arguments here like iterations,batch-size,..
-- What is ‘--model’ ? in this link there are different model of Detectron2 model Zoo that are for different task like Object Detection, Person keypoints,Segmentation, ..
+- What is ‘--model’ ? in this link there are different pretrained  model of Detectron2 model Zoo that are for different task like Object Detection, Person keypoints,Segmentation, ..
 https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
 - <img width="906" height="336" alt="image" src="https://github.com/user-attachments/assets/9dfad3ca-04d1-4b65-aa0f-c967e23c5558" />
+- and this is the model that we chose for our code:
+- <img width="781" height="303" alt="image" src="https://github.com/user-attachments/assets/403057d0-2550-4ce3-b74f-2588f17d53ab" />
+- <img width="297" height="294" alt="image" src="https://github.com/user-attachments/assets/f7bde4bc-58d0-451e-ab20-9abf19eabd69" />
+- <img width="412" height="371" alt="image" src="https://github.com/user-attachments/assets/bc44b267-d74d-41c1-8e96-6114e246660a" />
+- <img width="425" height="374" alt="image" src="https://github.com/user-attachments/assets/144fdb00-159f-4d12-9b35-06d1582c9605" />
+- <img width="432" height="684" alt="image" src="https://github.com/user-attachments/assets/462bfecc-069a-4464-8c52-8c6b05d046a5" />
+
+- <img width="387" height="642" alt="image" src="https://github.com/user-attachments/assets/ae580bb8-a103-47dc-9759-7c5314ea273d" />
+- <img width="362" height="349" alt="image" src="https://github.com/user-attachments/assets/511f7848-75a3-4130-8623-091e981fa2c7" />
+- We need to create util.py:
+- <img width="1034" height="371" alt="image" src="https://github.com/user-attachments/assets/f7c6b945-f65c-4867-89c9-7f257ae38de0" />
+- In Train.py file call train function which is in util.py:
+- <img width="1025" height="559" alt="image" src="https://github.com/user-attachments/assets/95b912d5-4bce-4b66-8ce1-e2a208c84c47" />
+- Also in util.py we need another function to read from dataset:
+- <img width="1039" height="718" alt="image" src="https://github.com/user-attachments/assets/58a0478f-15c5-455d-8635-b6500360756c" />
+- <img width="354" height="681" alt="image" src="https://github.com/user-attachments/assets/c1bcd0bb-6395-4947-ba5e-b0e8911685a7" />
+- In util.py we define get_dicts function to read the annotation for dataset: 
+- <img width="1356" height="460" alt="image" src="https://github.com/user-attachments/assets/7b6e292b-5e87-443a-902b-c5e6f09e85d8" />
+- <img width="1324" height="279" alt="image" src="https://github.com/user-attachments/assets/ec281974-73e0-40b0-b42d-5122739ee9d6" />
+- <img width="668" height="677" alt="image" src="https://github.com/user-attachments/assets/0925a19f-3c92-41c0-828e-c6db4340b136" />
+- <img width="798" height="405" alt="image" src="https://github.com/user-attachments/assets/d2ec5610-00b8-42d9-afba-2a19f155f16a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
