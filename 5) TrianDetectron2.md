@@ -18,6 +18,7 @@ annoation for training ==> <img width="483" height="218" alt="image" src="https:
 - images for training ==> <img width="652" height="288" alt="image" src="https://github.com/user-attachments/assets/e11a35e3-74f6-4197-8a19-15d6dcd4f5bf" />
 - Also we have these folders Validation test after training.
 -This is what exactly we want to access them - the structure of name must be the same in train and val folders:
+- <img width="663" height="328" alt="image" src="https://github.com/user-attachments/assets/e77032d4-3d1b-4a95-9df1-788f6caa816b" />
 - <img width="535" height="686" alt="image" src="https://github.com/user-attachments/assets/5d2f6ba0-4abb-4e7b-8f90-81258a92889f" />
 - Now we define ArgumentParser():
     - <img width="1096" height="383" alt="image" src="https://github.com/user-attachments/assets/994036ca-5289-4812-a91d-f49d7e29a9b2" />
@@ -49,6 +50,21 @@ https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
 - <img width="1324" height="279" alt="image" src="https://github.com/user-attachments/assets/ec281974-73e0-40b0-b42d-5122739ee9d6" />
 - <img width="668" height="677" alt="image" src="https://github.com/user-attachments/assets/0925a19f-3c92-41c0-828e-c6db4340b136" />
 - <img width="798" height="405" alt="image" src="https://github.com/user-attachments/assets/d2ec5610-00b8-42d9-afba-2a19f155f16a" />
+- In util.py we need train function:
+- <img width="1139" height="59" alt="image" src="https://github.com/user-attachments/assets/0631ff11-737a-4fcc-881a-158815aefc39" />
+- <img width="1118" height="394" alt="image" src="https://github.com/user-attachments/assets/fd92103a-e1b2-472f-8823-dd84a82f5da0" />
+- 0000000000000000000000000000000
+- What is get_cfg function?
+- We want to change the pretrained model configuration based on out desire configuration. So first we call _get_cfg() ⇒ then we modify our parameters with cfg.merge_from_file
+- <img width="664" height="363" alt="image" src="https://github.com/user-attachments/assets/d58ebd5e-d6cd-4cb1-bf82-9bda1e91e960" />
+- <img width="1228" height="540" alt="image" src="https://github.com/user-attachments/assets/cf9b7f69-01eb-4c9e-8f2b-60d1e3f90965" />
+<img width="969" height="605" alt="image" src="https://github.com/user-attachments/assets/50dacb4b-0e20-4192-a489-310b850859ab" />
+<img width="1084" height="592" alt="image" src="https://github.com/user-attachments/assets/08a76ae9-d311-40cf-aa46-bf534a721d50" />
+
+
+
+
+
 
 
 
