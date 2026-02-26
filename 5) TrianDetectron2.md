@@ -111,6 +111,7 @@ The validation information is  in metrics.json file:
 # Using the model at a specific check point to make predictions on our data:
 - in predict.py that we already created > we uodate the configuration based on our model and data, for example here we have to write the model that we use for prediction:
 - <img width="901" height="581" alt="image" src="https://github.com/user-attachments/assets/08d95104-8b57-40d3-88f6-178283f8c92d" />
+- <img width="642" height="361" alt="image" src="https://github.com/user-attachments/assets/812fc748-51a0-48a3-83f3-5eab23671a8c" />
 - This is most important part: 
     - We have to write the desire check point address  in cfg.MODEL.WEIGHTS=”” 
     - We must download that file in following address that we have created it before by our model:
@@ -119,6 +120,16 @@ The validation information is  in metrics.json file:
     - <img width="499" height="77" alt="image" src="https://github.com/user-attachments/assets/104354b0-5128-4c45-9e2b-dd16abea374f" />
     this image:
 <img width="347" height="267" alt="image" src="https://github.com/user-attachments/assets/b395844e-c5df-4624-87eb-15becccb024f" />
+-(just for test)We can print the output in this step to understand what is the prediction with:
+- <img width="514" height="202" alt="image" src="https://github.com/user-attachments/assets/30e00ef3-c924-4ccf-a142-0390f2444769" />
+- and we can see that this model predict some different number (for each annotation or name) with the accueacy rate:
+- <img width="905" height="255" alt="image" src="https://github.com/user-attachments/assets/4870dd49-8585-43ca-9ff1-7e8cfa37167d" />
+- After running predict.py we can see the result that this animal was correctly detected:
+- <img width="530" height="441" alt="image" src="https://github.com/user-attachments/assets/57f081f0-ff02-4b80-9c0b-902925879f3f" />
+
+
+
+
 
 
 
