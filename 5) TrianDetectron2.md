@@ -70,6 +70,23 @@ trainer.resume_or_load(resume=false) ⇒ means run from scratch
 - <img width="715" height="541" alt="image" src="https://github.com/user-attachments/assets/90f1a225-2ec0-4d61-8b7f-9eead144fc3e" />
 <img width="763" height="676" alt="image" src="https://github.com/user-attachments/assets/d6270bf3-639f-4ef7-bfe7-2406b22ad274" />
 
+# Running Detectron 2 pretrained model:
+- Now, we want to run Detecron 2 on our data. We need to upload this 4 python code:
+- util.py / train.py / loss.py / class.names
+- we also need data file that contains train and val data(image and anotation files)
+- <img width="678" height="586" alt="image" src="https://github.com/user-attachments/assets/a17d8967-c72f-4c02-96f1-aa7900b1b34d" />
+- Now,in google colab: 
+- <img width="731" height="401" alt="image" src="https://github.com/user-attachments/assets/7fec2abe-828d-4de3-a25e-be521439bc20" />
+- we have to change our working directory to folder that contains detectron 2 files and data :
+- <img width="893" height="153" alt="image" src="https://github.com/user-attachments/assets/d1ebbba8-e466-44cd-8169-a3df10d65a9a" />
+- Then run this line:
+- <img width="906" height="142" alt="image" src="https://github.com/user-attachments/assets/d854bfec-7bd4-4e93-a5b9-a3579e76b395" />
+
+
+
+
+
+
 
 
 
