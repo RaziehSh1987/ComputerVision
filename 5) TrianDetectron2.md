@@ -70,7 +70,7 @@ trainer.resume_or_load(resume=false) ⇒ means run from scratch
 - <img width="715" height="541" alt="image" src="https://github.com/user-attachments/assets/90f1a225-2ec0-4d61-8b7f-9eead144fc3e" />
 <img width="763" height="676" alt="image" src="https://github.com/user-attachments/assets/d6270bf3-639f-4ef7-bfe7-2406b22ad274" />
 - We also need to create plot_loss.py file to plot percentage of loss function and validation of our Detectron2 model:
-- <img width="567" height="207" alt="image" src="https://github.com/user-attachments/assets/f41154ec-d35d-4b9f-a875-bdffb0d9a7ca" />
+-  <img width="567" height="207" alt="image" src="https://github.com/user-attachments/assets/f41154ec-d35d-4b9f-a875-bdffb0d9a7ca" />
 - <img width="868" height="479" alt="image" src="https://github.com/user-attachments/assets/f077a149-8349-4a4a-b3bf-fae8fb427241" />
 - before deleting some plot code we have this plot:
 - <img width="781" height="530" alt="image" src="https://github.com/user-attachments/assets/af22209c-668c-402a-9471-f54a610c1bfc" />
