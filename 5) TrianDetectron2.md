@@ -69,13 +69,14 @@ trainer.resume_or_load(resume=false) ⇒ means run from scratch
 - <img width="787" height="471" alt="image" src="https://github.com/user-attachments/assets/d862a9bc-d1c8-4dee-8113-90c914db2715" />
 - <img width="715" height="541" alt="image" src="https://github.com/user-attachments/assets/90f1a225-2ec0-4d61-8b7f-9eead144fc3e" />
 <img width="763" height="676" alt="image" src="https://github.com/user-attachments/assets/d6270bf3-639f-4ef7-bfe7-2406b22ad274" />
-- We also need to create plot_loss.py to plot percentage of loss function and validation of our Detectron2 model:
+- We also need to create plot_loss.py file to plot percentage of loss function and validation of our Detectron2 model:
+- <img width="567" height="207" alt="image" src="https://github.com/user-attachments/assets/f41154ec-d35d-4b9f-a875-bdffb0d9a7ca" />
 - <img width="868" height="479" alt="image" src="https://github.com/user-attachments/assets/f077a149-8349-4a4a-b3bf-fae8fb427241" />
 - before deleting some plot code we have this plot:
 - <img width="781" height="530" alt="image" src="https://github.com/user-attachments/assets/af22209c-668c-402a-9471-f54a610c1bfc" />
 - But we need to disable this lines of code:
 - <img width="834" height="219" alt="image" src="https://github.com/user-attachments/assets/a8ccd5cf-5e9d-41f6-9436-de5aa83561f5" />
-- To have this plot:
+- To have this clear plot:
 - <img width="479" height="386" alt="image" src="https://github.com/user-attachments/assets/9870476e-daec-4895-b0d3-5e9ec3a7598f" />
 - <img width="479" height="386" alt="image" src="https://github.com/user-attachments/assets/80c0f7a8-3d3c-4d01-a1ec-bf74b77f2bc2" />
 
@@ -102,6 +103,29 @@ the output files save  into output folders:
 - <img width="209" height="321" alt="image" src="https://github.com/user-attachments/assets/52661a03-676b-4339-9164-68f0e75c5493" />
 The validation information is  in metrics.json file:
 - <img width="377" height="146" alt="image" src="https://github.com/user-attachments/assets/d2efc669-6025-47ea-81d7-ff5d153f9510" />
+- At this stage (at each check point) we sent the metrics.json file to the following file (plot_loss.py) to evaluate the accuracy of the model at this stage:
+- <img width="567" height="207" alt="image" src="https://github.com/user-attachments/assets/9bed95c3-bf3a-4058-8193-f21bcf1c09f1" />
+- For example, in the plot below we see that the validation and training data are moving downwards, which is good, but they are far apart, which could be better:
+<img width="503" height="429" alt="image" src="https://github.com/user-attachments/assets/bfe5647a-1b71-4e98-89d4-4933112660b8" />
+
+# Using the model at a specific check point to make predictions on our data:
+- in predict.py that we already created > we uodate the configuration based on our model and data, for example here we have to write the model that we use for prediction:
+- <img width="901" height="581" alt="image" src="https://github.com/user-attachments/assets/08d95104-8b57-40d3-88f6-178283f8c92d" />
+- This is most important part: 
+    - We have to write the desire check point address  in cfg.MODEL.WEIGHTS=”” 
+    - We must download that file in following address that we have created it before by our model:
+    - <img width="921" height="633" alt="image" src="https://github.com/user-attachments/assets/6ab41c67-799f-49cf-809d-8cb229ea8c2a" />
+    - now, it's time to read the image that we want run and predict by detectron2 in this line at predict.py file:
+    - <img width="499" height="77" alt="image" src="https://github.com/user-attachments/assets/104354b0-5128-4c45-9e2b-dd16abea374f" />
+    this image:
+<img width="347" height="267" alt="image" src="https://github.com/user-attachments/assets/b395844e-c5df-4624-87eb-15becccb024f" />
+
+
+
+
+
+
+
 
 
 
