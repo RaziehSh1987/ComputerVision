@@ -69,6 +69,21 @@ trainer.resume_or_load(resume=false) ⇒ means run from scratch
 - <img width="787" height="471" alt="image" src="https://github.com/user-attachments/assets/d862a9bc-d1c8-4dee-8113-90c914db2715" />
 - <img width="715" height="541" alt="image" src="https://github.com/user-attachments/assets/90f1a225-2ec0-4d61-8b7f-9eead144fc3e" />
 <img width="763" height="676" alt="image" src="https://github.com/user-attachments/assets/d6270bf3-639f-4ef7-bfe7-2406b22ad274" />
+- We also need to create plot_loss.py to plot percentage of loss function and validation of our Detectron2 model:
+- <img width="868" height="479" alt="image" src="https://github.com/user-attachments/assets/f077a149-8349-4a4a-b3bf-fae8fb427241" />
+- before deleting some plot code we have this plot:
+- <img width="781" height="530" alt="image" src="https://github.com/user-attachments/assets/af22209c-668c-402a-9471-f54a610c1bfc" />
+- But we need to disable this lines of code:
+- <img width="834" height="219" alt="image" src="https://github.com/user-attachments/assets/a8ccd5cf-5e9d-41f6-9436-de5aa83561f5" />
+- To have this plot:
+- <img width="479" height="386" alt="image" src="https://github.com/user-attachments/assets/9870476e-daec-4895-b0d3-5e9ec3a7598f" />
+- <img width="479" height="386" alt="image" src="https://github.com/user-attachments/assets/80c0f7a8-3d3c-4d01-a1ec-bf74b77f2bc2" />
+
+
+
+
+
+
 
 # Running Detectron 2 pretrained model:
 - Now, we want to run Detecron 2 on our data. We need to upload this 4 python code:
@@ -79,8 +94,17 @@ trainer.resume_or_load(resume=false) ⇒ means run from scratch
 - <img width="731" height="401" alt="image" src="https://github.com/user-attachments/assets/7fec2abe-828d-4de3-a25e-be521439bc20" />
 - we have to change our working directory to folder that contains detectron 2 files and data :
 - <img width="893" height="153" alt="image" src="https://github.com/user-attachments/assets/d1ebbba8-e466-44cd-8169-a3df10d65a9a" />
-- Then run this line:
+- Then run this line to train Detectron 2 model (that we already created train file and define these arguments with argparse Library ):
 - <img width="906" height="142" alt="image" src="https://github.com/user-attachments/assets/d854bfec-7bd4-4e93-a5b9-a3579e76b395" />
+the output files save  into output folders:
+- <img width="539" height="349" alt="image" src="https://github.com/user-attachments/assets/a5fb0871-35e8-42aa-8a9f-404a8cf8951f" />
+- We defined check point=500 to check the validation of file after 500 epoc and we can see the output: 
+- <img width="209" height="321" alt="image" src="https://github.com/user-attachments/assets/52661a03-676b-4339-9164-68f0e75c5493" />
+The validation information is  in metrics.json file:
+- <img width="377" height="146" alt="image" src="https://github.com/user-attachments/assets/d2efc669-6025-47ea-81d7-ff5d153f9510" />
+
+
+
 
 
 
