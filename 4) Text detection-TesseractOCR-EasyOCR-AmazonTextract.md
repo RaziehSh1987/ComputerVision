@@ -84,6 +84,10 @@ https://youtu.be/CcC3h0waQ6I?si=s-4CkD5yroNw45qD
 - <img width="332" height="41" alt="image" src="https://github.com/user-attachments/assets/035a5bd9-652c-4e0f-a05f-8941092ff437" /> 
 - <img width="946" height="193" alt="image" src="https://github.com/user-attachments/assets/c93bf9e2-5c8d-4d7c-b7eb-81ccc99238cd" />
 
+- output:
+- <img width="288" height="56" alt="image" src="https://github.com/user-attachments/assets/85cd296f-9563-45b4-b986-8ba52323c403" />
+
+
 
 
 
