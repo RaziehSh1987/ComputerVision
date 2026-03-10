@@ -67,7 +67,37 @@ https://youtu.be/CcC3h0waQ6I?si=s-4CkD5yroNw45qD
 -  <img width="604" height="301" alt="image" src="https://github.com/user-attachments/assets/c7ade84d-454f-42da-901a-707846d0f131" />
 - output: <img width="189" height="31" alt="image" src="https://github.com/user-attachments/assets/433ca335-750a-4727-872c-96e8705cf22d" />
 
-# Compare performances for 3 different wat for text extraction:
+# Compare performances by Similarity metrics for 3 different way for text extraction:
+- we use Jaccard index:
+- <img width="586" height="304" alt="image" src="https://github.com/user-attachments/assets/9f601dc5-9592-40ea-9041-16f2fbf8c748" />
+- <img width="193" height="250" alt="image" src="https://github.com/user-attachments/assets/3b9b2513-bc01-463e-8923-183fc633643f" />
+- We compare by counting the number of word that is detected
+- we ask ChatGPT for:
+- <img width="358" height="31" alt="image" src="https://github.com/user-attachments/assets/992ed2f5-03de-454f-9e43-ee5a2bbc0381" />
+- <img width="478" height="386" alt="image" src="https://github.com/user-attachments/assets/3acf3905-af72-4fbb-b59c-d0434b41d3c3" />
+- now , we put all of text detection code into 3 different function :
+- <img width="453" height="147" alt="image" src="https://github.com/user-attachments/assets/f1474dca-654d-4ec7-b5ed-5228f04c7105" />
+- <img width="337" height="115" alt="image" src="https://github.com/user-attachments/assets/83ec381b-b5a5-46c7-8b4d-929b5d19b074" />
+- <img width="501" height="187" alt="image" src="https://github.com/user-attachments/assets/1ff0b118-d32f-46b8-a21d-dc1dbb828757" />
+- And change Jaccard similarity function to read the 3 text extraction output:
+- <img width="578" height="278" alt="image" src="https://github.com/user-attachments/assets/bc884787-47da-4039-8877-738f31552611" />
+- <img width="332" height="41" alt="image" src="https://github.com/user-attachments/assets/035a5bd9-652c-4e0f-a05f-8941092ff437" /> 
+- <img width="946" height="193" alt="image" src="https://github.com/user-attachments/assets/c93bf9e2-5c8d-4d7c-b7eb-81ccc99238cd" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
