@@ -12,5 +12,7 @@
    - what is stratify?
   
   - <img width="360" height="268" alt="image" src="https://github.com/user-attachments/assets/73d048c4-b75f-4e01-8d13-2399509209d5" />
+- train classifier:
+- 
 
 
