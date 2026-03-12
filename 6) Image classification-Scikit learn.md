@@ -14,15 +14,90 @@
   - <img width="360" height="268" alt="image" src="https://github.com/user-attachments/assets/73d048c4-b75f-4e01-8d13-2399509209d5" />
 - train classifier:
 -  We don’t define the parameter for SVC because we want to use default parameters value only C and gamma
-classifier = SVC() : اینجا ما یک مدل یادگیری ماشین می‌سازیم. مدل: SVC (Support Vector Classifier)  این مدل مثل یک معلم است که یاد می‌گیرد چطور چیزها را دسته‌بندی کند. مثلاً: - عکس گربه  عکس سگ - مدل یاد می‌گیرد تشخیص دهد.
-- در اینجا دو تنظیم داریم:
--  C  کنترل می‌کند مدل چقدر سختگیر باشد.
-     -  C کوچک → مدل ساده‌تر
-     -  C بزرگ → مدل پیچیده‌تر
-- Gamma  کنترل می‌کند مدل چقدر به جزئیات توجه کند.
-     - gamma بزرگ → توجه زیاد به جزئیات
-     - gamma کوچک → نگاه کلی‌تر
-     - 
+Below is a **clean GitHub / README.md format** you can directly paste into your repository.
 
+````markdown
+## Support Vector Classifier (SVC) Model
 
+```python
+classifier = SVC()
+````
+
+Here we create a **machine learning classification model** called **SVC (Support Vector Classifier)**.
+
+The goal of this model is to **learn patterns from training data and classify new data into categories**.
+For example, the model can learn to distinguish between:
+
+* Cat images
+* Dog images
+
+After training, the model can predict the correct category for new unseen data.
+
+---
+
+## Model Hyperparameters
+
+In this example, we tune two important hyperparameters:
+
+### C
+
+`C` controls how strict the model is when separating the classes.
+
+* **Small C → Simpler model**
+  Allows more classification errors but improves generalization.
+
+* **Large C → More complex model**
+  Tries to classify training data more accurately but may overfit.
+
+---
+
+### Gamma
+
+`gamma` controls how much the model focuses on individual data points.
+
+* **Large gamma → Focus on very close data points**
+  Creates more detailed decision boundaries.
+
+* **Small gamma → Focus on overall data distribution**
+  Produces smoother and simpler boundaries.
+
+---
+
+## Hyperparameter Tuning with GridSearch
+
+Since we **do not know the best values for `C` and `gamma`**, we test multiple combinations using **GridSearchCV**.
+
+Example parameter grid:
+
+```python
+parameters = {
+    'C': [1, 10, 100, 1000],
+    'gamma': [0.01, 0.001, 0.0001]
+}
+```
+
+GridSearch will try **all possible combinations** of these values and select the best performing model.
+
+Total models tested:
+
+```
+4 C values × 3 gamma values = 12 models
+```
+
+---
+
+## Why These Values?
+
+The values are chosen on a **logarithmic scale**:
+
+```
+0.0001 → 0.001 → 0.01
+1 → 10 → 100 → 1000
+```
+
+This allows the search to efficiently explore **small, medium, and large parameter values**.
+
+Using logarithmic scales for hyperparameter tuning is a **standard practice in machine learning**.
+
+```
 
