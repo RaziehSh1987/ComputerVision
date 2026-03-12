@@ -13,6 +13,16 @@
   
   - <img width="360" height="268" alt="image" src="https://github.com/user-attachments/assets/73d048c4-b75f-4e01-8d13-2399509209d5" />
 - train classifier:
-- 
+-  We don’t define the parameter for SVC because we want to use default parameters value only C and gamma
+classifier = SVC() : اینجا ما یک مدل یادگیری ماشین می‌سازیم. مدل: SVC (Support Vector Classifier)  این مدل مثل یک معلم است که یاد می‌گیرد چطور چیزها را دسته‌بندی کند. مثلاً: - عکس گربه  عکس سگ - مدل یاد می‌گیرد تشخیص دهد.
+- در اینجا دو تنظیم داریم:
+-  C  کنترل می‌کند مدل چقدر سختگیر باشد.
+     -  C کوچک → مدل ساده‌تر
+     -  C بزرگ → مدل پیچیده‌تر
+- Gamma  کنترل می‌کند مدل چقدر به جزئیات توجه کند.
+     - gamma بزرگ → توجه زیاد به جزئیات
+     - gamma کوچک → نگاه کلی‌تر
+     - 
+
 
 
