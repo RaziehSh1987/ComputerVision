@@ -102,4 +102,10 @@ Using logarithmic scales for hyperparameter tuning is a **standard practice in m
 
 <img width="1108" height="259" alt="image" src="https://github.com/user-attachments/assets/a1ed4a1d-5947-4624-bed2-d170e2c36382" />
 
+- Test Performance:
+     -  Now we must predict test data based on best option that Grid search selected:
+
+<img width="467" height="121" alt="image" src="https://github.com/user-attachments/assets/489702ec-afcc-4c94-b1c4-9dfd5e315374" />
+
+
 
