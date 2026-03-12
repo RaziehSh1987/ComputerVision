@@ -100,4 +100,6 @@ This allows the search to efficiently explore **small, medium, and large paramet
 Using logarithmic scales for hyperparameter tuning is a **standard practice in machine learning**.
 
 ```
+<img width="1108" height="259" alt="image" src="https://github.com/user-attachments/assets/a1ed4a1d-5947-4624-bed2-d170e2c36382" />
+
 
