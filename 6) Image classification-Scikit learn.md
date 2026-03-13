@@ -4,7 +4,8 @@
 -  <img width="232" height="97" alt="image" src="https://github.com/user-attachments/assets/92438ff3-89f4-4837-bd7c-1d0d2f38b2ad" />
 
 - define libraries:
-- <img width="551" height="296" alt="image" src="https://github.com/user-attachments/assets/7184877c-0eb3-4b3a-8f11-2d1f5fabe54a" />
+- <img width="698" height="533" alt="image" src="https://github.com/user-attachments/assets/116c4ad7-e4b0-42b3-971f-5933ec6bade2" />
+
 - prepare data:
 - <img width="680" height="508" alt="image" src="https://github.com/user-attachments/assets/c6a19206-b838-4b89-9463-eee5863dfcd3" />
 - train / test split:
@@ -104,8 +105,11 @@ Using logarithmic scales for hyperparameter tuning is a **standard practice in m
 
 - Test Performance:
      -  Now we must predict test data based on best option that Grid search selected:
+<img width="919" height="395" alt="image" src="https://github.com/user-attachments/assets/86aa8c8d-d457-4f99-9982-30ca66a4c4f4" />
 
-<img width="467" height="121" alt="image" src="https://github.com/user-attachments/assets/489702ec-afcc-4c94-b1c4-9dfd5e315374" />
+output:
+<img width="553" height="58" alt="image" src="https://github.com/user-attachments/assets/6c182673-f828-4ee5-a8c5-37c37525c43f" />
+
 
 
 
